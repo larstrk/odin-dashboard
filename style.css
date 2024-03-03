@@ -135,6 +135,7 @@ html {
 
 .content-card p {
   margin-top: 5px;
-  font-weight: 100;
+  font-weight: 300; 
+  /* Need to make it work */
 }
 
