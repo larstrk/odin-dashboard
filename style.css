@@ -96,6 +96,7 @@ html {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 3fr 2fr;
   gap: 2px;
+  
 }
 
 .projects {
@@ -114,9 +115,9 @@ html {
 .content-card,
 .announcements-box,
 .trending-box {
-  border: 1px solid black;
   background-color: white;
   margin: 20px;
+  border-radius: 8px;
 }
 
 .announcements,
@@ -126,3 +127,14 @@ html {
   grid-template-rows: 40px;
   grid-template-columns: 1fr;
 }
+
+.content-card{
+  padding: 20px;
+  border-left: 7px solid orange;
+}
+
+.content-card p {
+  margin-top: 5px;
+  font-weight: 100;
+}
+
